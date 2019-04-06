@@ -1,0 +1,731 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://ualbertalib.github.io/iiif-experiments/EDB-1918-11-11-manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Edmonton Bulletin, 1918-11-11 IIIF Experiment",
+  "metadata": [],
+  "description": [
+    {
+      "@value": "Experimental manifest",
+      "@language": "en"
+    }
+  ],
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": "University of Alberta Libraries",
+  "sequences": [
+    {
+      "@id": "http://81270db8-427f-4d28-b4f0-0a8ffe9db5e3",
+      "@type": "sc:Sequence",
+      "label": [
+        {
+          "@value": "Normal Sequence",
+          "@language": "en"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "http://3907a7db-5df8-4295-8da0-017dcf89a621",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5922,
+          "width": 4272,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://b070113b-f71a-4a59-a553-50f69da63dd9",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/1.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/1.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5922,
+                "width": 4272
+              },
+              "on": "http://3907a7db-5df8-4295-8da0-017dcf89a621"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://19d3df3f-c55b-44f0-9104-233809b30d4b",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5936,
+          "width": 4252,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://8a3842b6-aa0f-4748-b658-d092364d049e",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/2.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/2.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5936,
+                "width": 4252
+              },
+              "on": "http://19d3df3f-c55b-44f0-9104-233809b30d4b"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://f97fc0cc-3096-47e8-a793-6572f9ebd595",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5967,
+          "width": 4248,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://1a9550f1-d9e3-4333-bde9-02fe5acc9a6f",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/3.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/3.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5967,
+                "width": 4248
+              },
+              "on": "http://f97fc0cc-3096-47e8-a793-6572f9ebd595"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://acc1430b-a55f-4494-b854-4919f99604a7",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5973,
+          "width": 4236,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://a842a505-5a50-4837-b842-b84e89e37c96",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/4.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/4.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5973,
+                "width": 4236
+              },
+              "on": "http://acc1430b-a55f-4494-b854-4919f99604a7"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://eeaa5d70-59e6-4227-afa2-ed43b371dbb8",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 5882,
+          "width": 4256,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://378fe532-e44d-4f20-b925-5201d95cfed0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/5.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/5.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5882,
+                "width": 4256
+              },
+              "on": "http://eeaa5d70-59e6-4227-afa2-ed43b371dbb8"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://42fb028a-b214-4882-a1ce-16cea7ae7ca8",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 5911,
+          "width": 4240,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://ef5a9057-a4d1-49c0-8e28-803da506707c",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/6.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/6.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5911,
+                "width": 4240
+              },
+              "on": "http://42fb028a-b214-4882-a1ce-16cea7ae7ca8"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://f3706343-f638-48a4-a79b-052a0379fd06",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 5928,
+          "width": 4304,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://c113f488-9b95-46cf-ae07-cb688374737a",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/7.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/7.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5928,
+                "width": 4304
+              },
+              "on": "http://f3706343-f638-48a4-a79b-052a0379fd06"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://11afcea3-34af-4cf6-91d5-8e2a3acd8071",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 5943,
+          "width": 4248,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://d5a642ea-7ed5-4d32-b6db-cb6004a182af",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/8.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/8.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5943,
+                "width": 4248
+              },
+              "on": "http://11afcea3-34af-4cf6-91d5-8e2a3acd8071"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://caaf4fe0-99b4-4172-91eb-90bc29349b43",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 5925,
+          "width": 4276,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://b9b0d2fc-2af0-4eff-9692-ef7f2bb4c0f8",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/9.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/9.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5925,
+                "width": 4276
+              },
+              "on": "http://caaf4fe0-99b4-4172-91eb-90bc29349b43"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://555aef28-e259-4e5e-84d2-243c235add22",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 5954,
+          "width": 4196,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://06beeda6-5f4e-4aa3-8fc6-03dc24c7aa9b",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/10.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/10.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5954,
+                "width": 4196
+              },
+              "on": "http://555aef28-e259-4e5e-84d2-243c235add22"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://c12857bd-330c-40fb-9db9-49772c4ad078",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 5912,
+          "width": 4320,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://81452ab8-ae7e-4a19-b721-5c78b6ed2b37",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/11.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/11.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5912,
+                "width": 4320
+              },
+              "on": "http://c12857bd-330c-40fb-9db9-49772c4ad078"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://7e06305e-ad33-4ae4-a94d-7e9cc1d85286",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 5938,
+          "width": 4224,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://78c13599-94e0-4101-b3bf-52da305d1519",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/12.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/12.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5938,
+                "width": 4224
+              },
+              "on": "http://7e06305e-ad33-4ae4-a94d-7e9cc1d85286"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://709eafae-ea63-402a-ab4c-202560dcf141",
+          "@type": "sc:Canvas",
+          "label": "13",
+          "height": 5928,
+          "width": 4300,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://96a99a33-5d0a-4658-b0fd-a71c18b4f7ef",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/13.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/13.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5928,
+                "width": 4300
+              },
+              "on": "http://709eafae-ea63-402a-ab4c-202560dcf141"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://b07ae8e2-949c-4b5a-b4bc-5da6b2cec1ba",
+          "@type": "sc:Canvas",
+          "label": "14",
+          "height": 5960,
+          "width": "4264",
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://b3f70169-595d-4b4b-9e3c-73e5a6401e04",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/14.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/14.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5960,
+                "width": 4264
+              },
+              "on": "http://b07ae8e2-949c-4b5a-b4bc-5da6b2cec1ba"
+            }
+          ],
+          "related": ""
+        }
+      ]
+    }
+  ],
+  "structures": [],
+  "viewingDirection": "left-to-right"
+}
