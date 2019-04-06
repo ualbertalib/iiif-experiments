@@ -1,0 +1,88 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://ualbertalib.github.io/iiif-experiments/M000104-manifest.json",
+	"@type": "sc:Manifest",
+	"label": [
+		"Plan showing the restaking of Lots V,41, 42 & part of Lot I, River-Lot No. 10 in the Edmonton Settlement"
+	],
+	"metadata": [],
+	"description": [
+		{
+			"@value": "1 map : ozalid ; 45.6 x 45.1 cm. on sheet 50.5 x 50.2 cm. ",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Thomas Wellington Chalmers",
+	"sequences": [
+		{
+			"@id": "http://5df51911-d764-4d9e-b6d2-12bf0a5891cf",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://3552883b-33dd-4e8e-a7ed-c8f78e1bbb7a",
+					"@type": "sc:Canvas",
+					"label": "Map",
+					"height": 6053,
+					"width": 6142,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://598cdcc3-a340-4683-b36f-25cb62923e96",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/M/00/01/M000104/M000104.tif/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/M/00/01/M000104/M000104.tif",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring",
+												"gray"
+											]
+										}
+									]
+								},
+								"height": 6053,
+								"width": 6142
+							},
+							"on": "http://3552883b-33dd-4e8e-a7ed-c8f78e1bbb7a"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": [],
+	"logo": "https://www.library.ualberta.ca/assets/ualib-logo-549144662029bcb11335dae2461fab157814df5b2e2d40d10a02e4e4335169ca.png",
+	"related": {
+		"@id": "http://peel.library.ualberta.ca/maps/M000104.html",
+		"label": "Peel's Prairie Provinces"
+	},
+	"viewingDirection": "left-to-right"
+}
+
