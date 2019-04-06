@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vendor/mirador/css/mirador-combined.min.css">
+    <title>iiif-experiments - University of Alberta Libraries</title>
+    <style type="text/css">
+     #viewer {
+       width: 100%;
+       height: 100%;
+       position: fixed;
+     }
+    </style>
+  </head>
+  <body>
+    <header>
+      University of Alberta Libraries - IIIF Experiments | 
+      <a href="experiments.html">List of experiments</a>
+    </header>
+
+    <div id="viewer"></div>
+
+    <script src="vendor/mirador/mirador.min.js"></script>
+    <script type="text/javascript">
+
+     $(function() {
+      // list our experimental manifests, newest first, so that the latest
+      // experiment will be displayed by default
+      ualibCollection = [
+          { "manifestUri": "https://ualbertalib.github.io/iiif-experiments/EDB-1918-11-11-manifest.json", "location": "ualberta libraries" },
+          { "manifestUri": "https://ualbertalib.github.io/iiif-experiments/M000104-manifest.json", "location": "ualberta libraries" }
+         ]
+
+       myMiradorInstance = Mirador({
+         "id": "viewer",
+         "layout": "1x1",
+         "buildPath": "vendor/mirador",
+         "data": ualibCollection,
+         "windowObjects": [{
+           loadedManifest: ualibCollection[0]["manifestUri"],
+           viewType: "ImageView"
+         }],
+         "annotationEndpoint": { "name":"Local Storage", "module": "LocalStorageEndpoint" },
+         "windowSettings": {
+           "canvasControls": { // The types of controls available to be displayed on a canvas
+             "imageManipulation" : {
+               "manipulationLayer" : true,
+               "controls" : {
+                 "mirror" : true
+               }
+             }
+           }
+         }
+       });
+     });
+    </script>
+
+  </body>
+</html>
