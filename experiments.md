@@ -1,9 +1,13 @@
+---
+title: Experiments
+layout: default
+---
+
 ## Experiments
 
-### 1. A manifest for a basic map from the Peel site
+{% for manifest in site.data.manifests %}
+<h3>{{ forloop.index }}. {{ manifest.title }}</h3>
 
-[https://ualbertalib.github.io/iiif-experiments/manifests/M000104-manifest.json](https://ualbertalib.github.io/iiif-experiments/manifests/M000104-manifest.json)
+[{{ site.url }}{{ site.baseurl }}/manifests/{{ manifest.filename }}]({{ site.url }}{{ site.baseurl }}/manifests/{{ manifest.filename }})
+{% endfor %}
 
-### 2. Barebones newspaper issue
-
-[https://ualbertalib.github.io/iiif-experiments/manifests/EDB-1918-11-11-manifest.json](https://ualbertalib.github.io/iiif-experiments/manifests/EDB-1918-11-11-manifest.json)

@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
   <head>
@@ -29,19 +31,19 @@
       // list our experimental manifests, newest first, so that the latest
       // experiment will be displayed by default
       ualibCollection = [
-          { "manifestUri": "https://ualbertalib.github.io/iiif-experiments/manifests/EDB-1918-11-11-manifest.json", "location": "ualberta libraries" },
-          { "manifestUri": "https://ualbertalib.github.io/iiif-experiments/manifests/M000104-manifest.json", "location": "ualberta libraries" }
-         ]
+        {% for manifest in site.data.manifests %}
+          { "manifestUri": "{{ site.url }}{{ site.baseurl }}/manifests/{{ manifest.filename }}" }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+      ]
 
        myMiradorInstance = Mirador({
          "id": "viewer",
          "layout": "1x1",
          "buildPath": "vendor/mirador/",
          "data": ualibCollection,
-         "windowObjects": [{
-           loadedManifest: ualibCollection[0]["manifestUri"],
-           viewType: "ImageView"
-         }],
+         "openManifestsPage": true,
+         "preserveManifestOrder": true,
+         "windowObjects": [],
          "annotationEndpoint": { "name":"Local Storage", "module": "LocalStorageEndpoint" },
          "windowSettings": {
            "canvasControls": { // The types of controls available to be displayed on a canvas

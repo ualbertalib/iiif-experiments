@@ -1,0 +1,21 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/collections/iiif-experiments.json",
+  "@type": "sc:Collection",
+  "label": "UAlberta Libraries IIIF Experiments",
+  "viewingHint": "top",
+  "description": "Experiments in IIIF",
+  "attribution": "University of Alberta Libraries, Digital Initiatives",
+
+  "manifests": [
+    {% for manifest in site.data.manifests %}
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/{{ manifest.filename }}",
+      "@type": "sc:Manifest",
+      "label": "{{ manifest.title }}"
+    }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+}
