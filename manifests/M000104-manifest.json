@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "https://ualbertalib.github.io/iiif-experiments/M000104-manifest.json",
+	"@id": "https://ualbertalib.github.io/iiif-experiments/manifests/M000104-manifest.json",
 	"@type": "sc:Manifest",
 	"label": [
 		"Plan showing the restaking of Lots V,41, 42 & part of Lot I, River-Lot No. 10 in the Edmonton Settlement"

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://ualbertalib.github.io/iiif-experiments/EDB-1918-11-11-manifest.json",
+  "@id": "https://ualbertalib.github.io/iiif-experiments/manifests/EDB-1918-11-11-manifest.json",
   "@type": "sc:Manifest",
   "label": "Edmonton Bulletin, 1918-11-11 IIIF Experiment",
   "metadata": [],
