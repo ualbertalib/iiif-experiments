@@ -2,7 +2,7 @@
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://ualbertalib.github.io/iiif-experiments/manifests/EDB-1918-11-11-manifest.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11-manifest.json",
   "@type": "sc:Manifest",
   "label": "Edmonton Bulletin, 1918-11-11 IIIF Experiment",
   "metadata": [],
@@ -16,7 +16,7 @@
   "attribution": "University of Alberta Libraries",
   "sequences": [
     {
-      "@id": "http://81270db8-427f-4d28-b4f0-0a8ffe9db5e3",
+      "@id": "{{ site.url }}{{ site.baseurl }}/sequence/1",
       "@type": "sc:Sequence",
       "label": [
         {
@@ -26,7 +26,7 @@
       ],
       "canvases": [
         {
-          "@id": "http://3907a7db-5df8-4295-8da0-017dcf89a621",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1",
           "@type": "sc:Canvas",
           "label": "1",
           "height": 5922,
@@ -34,7 +34,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://b070113b-f71a-4a59-a553-50f69da63dd9",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/1",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -70,13 +70,13 @@
                 "height": 5922,
                 "width": 4272
               },
-              "on": "http://3907a7db-5df8-4295-8da0-017dcf89a621"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://19d3df3f-c55b-44f0-9104-233809b30d4b",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2",
           "@type": "sc:Canvas",
           "label": "2",
           "height": 5936,
@@ -84,7 +84,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://8a3842b6-aa0f-4748-b658-d092364d049e",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/2",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -120,13 +120,13 @@
                 "height": 5936,
                 "width": 4252
               },
-              "on": "http://19d3df3f-c55b-44f0-9104-233809b30d4b"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://f97fc0cc-3096-47e8-a793-6572f9ebd595",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3",
           "@type": "sc:Canvas",
           "label": "3",
           "height": 5967,
@@ -134,7 +134,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://1a9550f1-d9e3-4333-bde9-02fe5acc9a6f",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/3",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -170,13 +170,13 @@
                 "height": 5967,
                 "width": 4248
               },
-              "on": "http://f97fc0cc-3096-47e8-a793-6572f9ebd595"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://acc1430b-a55f-4494-b854-4919f99604a7",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4",
           "@type": "sc:Canvas",
           "label": "4",
           "height": 5973,
@@ -184,7 +184,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://a842a505-5a50-4837-b842-b84e89e37c96",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/4",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -220,13 +220,13 @@
                 "height": 5973,
                 "width": 4236
               },
-              "on": "http://acc1430b-a55f-4494-b854-4919f99604a7"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://eeaa5d70-59e6-4227-afa2-ed43b371dbb8",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5",
           "@type": "sc:Canvas",
           "label": "5",
           "height": 5882,
@@ -234,7 +234,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://378fe532-e44d-4f20-b925-5201d95cfed0",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/5",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -270,13 +270,13 @@
                 "height": 5882,
                 "width": 4256
               },
-              "on": "http://eeaa5d70-59e6-4227-afa2-ed43b371dbb8"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://42fb028a-b214-4882-a1ce-16cea7ae7ca8",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6",
           "@type": "sc:Canvas",
           "label": "6",
           "height": 5911,
@@ -284,7 +284,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://ef5a9057-a4d1-49c0-8e28-803da506707c",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/6",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -320,13 +320,13 @@
                 "height": 5911,
                 "width": 4240
               },
-              "on": "http://42fb028a-b214-4882-a1ce-16cea7ae7ca8"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://f3706343-f638-48a4-a79b-052a0379fd06",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7",
           "@type": "sc:Canvas",
           "label": "7",
           "height": 5928,
@@ -334,7 +334,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://c113f488-9b95-46cf-ae07-cb688374737a",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/7",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -370,13 +370,13 @@
                 "height": 5928,
                 "width": 4304
               },
-              "on": "http://f3706343-f638-48a4-a79b-052a0379fd06"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://11afcea3-34af-4cf6-91d5-8e2a3acd8071",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8",
           "@type": "sc:Canvas",
           "label": "8",
           "height": 5943,
@@ -384,7 +384,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://d5a642ea-7ed5-4d32-b6db-cb6004a182af",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/8",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -420,13 +420,13 @@
                 "height": 5943,
                 "width": 4248
               },
-              "on": "http://11afcea3-34af-4cf6-91d5-8e2a3acd8071"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://caaf4fe0-99b4-4172-91eb-90bc29349b43",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9",
           "@type": "sc:Canvas",
           "label": "9",
           "height": 5925,
@@ -434,7 +434,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://b9b0d2fc-2af0-4eff-9692-ef7f2bb4c0f8",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/9",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -470,13 +470,13 @@
                 "height": 5925,
                 "width": 4276
               },
-              "on": "http://caaf4fe0-99b4-4172-91eb-90bc29349b43"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://555aef28-e259-4e5e-84d2-243c235add22",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10",
           "@type": "sc:Canvas",
           "label": "10",
           "height": 5954,
@@ -484,7 +484,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://06beeda6-5f4e-4aa3-8fc6-03dc24c7aa9b",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/10",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -520,13 +520,13 @@
                 "height": 5954,
                 "width": 4196
               },
-              "on": "http://555aef28-e259-4e5e-84d2-243c235add22"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://c12857bd-330c-40fb-9db9-49772c4ad078",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11",
           "@type": "sc:Canvas",
           "label": "11",
           "height": 5912,
@@ -534,7 +534,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://81452ab8-ae7e-4a19-b721-5c78b6ed2b37",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/11",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -570,13 +570,13 @@
                 "height": 5912,
                 "width": 4320
               },
-              "on": "http://c12857bd-330c-40fb-9db9-49772c4ad078"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://7e06305e-ad33-4ae4-a94d-7e9cc1d85286",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12",
           "@type": "sc:Canvas",
           "label": "12",
           "height": 5938,
@@ -584,7 +584,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://78c13599-94e0-4101-b3bf-52da305d1519",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/12",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -620,13 +620,13 @@
                 "height": 5938,
                 "width": 4224
               },
-              "on": "http://7e06305e-ad33-4ae4-a94d-7e9cc1d85286"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://709eafae-ea63-402a-ab4c-202560dcf141",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13",
           "@type": "sc:Canvas",
           "label": "13",
           "height": 5928,
@@ -634,7 +634,7 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://96a99a33-5d0a-4658-b0fd-a71c18b4f7ef",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/13",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -670,21 +670,21 @@
                 "height": 5928,
                 "width": 4300
               },
-              "on": "http://709eafae-ea63-402a-ab4c-202560dcf141"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13"
             }
           ],
           "related": ""
         },
         {
-          "@id": "http://b07ae8e2-949c-4b5a-b4bc-5da6b2cec1ba",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14",
           "@type": "sc:Canvas",
           "label": "14",
           "height": 5960,
-          "width": "4264",
+          "width": 4264,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://b3f70169-595d-4b4b-9e3c-73e5a6401e04",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/14",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -720,7 +720,7 @@
                 "height": 5960,
                 "width": 4264
               },
-              "on": "http://b07ae8e2-949c-4b5a-b4bc-5da6b2cec1ba"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14"
             }
           ],
           "related": ""
