@@ -36,26 +36,41 @@
         {% endfor %}
       ]
 
-       myMiradorInstance = Mirador({
-         "id": "viewer",
-         "layout": "1x1",
-         "buildPath": "vendor/mirador/",
-         "data": ualibCollection,
-         "openManifestsPage": true,
-         "preserveManifestOrder": true,
-         "windowObjects": [],
-         "annotationEndpoint": { "name":"Local Storage", "module": "LocalStorageEndpoint" },
-         "windowSettings": {
-           "canvasControls": { // The types of controls available to be displayed on a canvas
-             "imageManipulation" : {
-               "manipulationLayer" : true,
-               "controls" : {
-                 "mirror" : true
-               }
+      config = {
+        "id": "viewer",
+        "layout": "1x1",
+        "buildPath": "vendor/mirador/",
+        "data": ualibCollection,
+        "preserveManifestOrder": true,
+        "windowObjects": [],
+        "annotationEndpoint": { "name":"Local Storage", "module": "LocalStorageEndpoint" },
+        "windowSettings": {
+         "canvasControls": { // The types of controls available to be displayed on a canvas
+           "imageManipulation" : {
+             "manipulationLayer" : true,
+             "controls" : {
+               "mirror" : true
              }
            }
          }
-       });
+        }
+      }
+
+      var urlParams = new URLSearchParams(location.search);
+      var manifest = urlParams.get("manifest")
+
+      if (manifest) {
+        config["windowObjects"] = [
+          {
+            "loadedManifest" : manifest, 
+            "viewType" : "ImageView"
+          }]
+      }
+      else {
+        config["openManifestsPage"] = true
+      }
+
+      myMiradorInstance = Mirador(config);
      });
     </script>
 

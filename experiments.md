@@ -5,6 +5,9 @@ layout: default
 
 ## Experiments
 
+<style>
+    .manifestlink { padding-left: 2em; }
+</style>
 {% for manifest in site.data.manifests %}
 
 {% capture manifesturl %}
@@ -14,7 +17,9 @@ layout: default
 <h3>{{ forloop.index }}. {{ manifest.title }}</h3>
 
 [{{ manifesturl | strip }}]({{ manifesturl | strip }})<br/>
-&gt; <a href="http://universalviewer.io/uv.html?manifest={{ manifesturl | strip | url_encode }}">Universal Viewer</a>
+<span class="manifestlink">&gt; <a href="http://universalviewer.io/uv.html?manifest={{ manifesturl | strip | url_encode }}">Universal Viewer</a></span>
+<span class="manifestlink">&gt; <a href="{{ site.url }}{{ site.baseurl }}/?manifest={{ manifesturl | strip | url_encode }}">Mirador</a></span>
+
 
 {% endfor %}
 
