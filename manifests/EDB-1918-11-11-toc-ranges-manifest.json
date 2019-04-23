@@ -1,0 +1,1881 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11-toc-manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Edmonton Bulletin, 1918-11-11 with TOC",
+  "metadata": [],
+  "description": [
+    {
+      "@value": "Experimental manifest",
+      "@language": "en"
+    }
+  ],
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "attribution": "University of Alberta Libraries",
+  "sequences": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/sequence/1",
+      "@type": "sc:Sequence",
+      "label": [
+        {
+          "@value": "Normal Sequence",
+          "@language": "en"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5922,
+          "width": 4272,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/1.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/1.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5922,
+                "width": 4272
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5936,
+          "width": 4252,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/2.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/2.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5936,
+                "width": 4252
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5967,
+          "width": 4248,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/3",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/3.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/3.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5967,
+                "width": 4248
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5973,
+          "width": 4236,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/4",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/4.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/4.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5973,
+                "width": 4236
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 5882,
+          "width": 4256,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/5",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/5.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/5.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5882,
+                "width": 4256
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 5911,
+          "width": 4240,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/6",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/6.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/6.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5911,
+                "width": 4240
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 5928,
+          "width": 4304,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/7",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/7.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/7.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5928,
+                "width": 4304
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 5943,
+          "width": 4248,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/8",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/8.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/8.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5943,
+                "width": 4248
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 5925,
+          "width": 4276,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/9",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/9.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/9.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5925,
+                "width": 4276
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 5954,
+          "width": 4196,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/10",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/10.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/10.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5954,
+                "width": 4196
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 5912,
+          "width": 4320,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/11",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/11.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/11.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5912,
+                "width": 4320
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 5938,
+          "width": 4224,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/12",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/12.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/12.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5938,
+                "width": 4224
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13",
+          "@type": "sc:Canvas",
+          "label": "13",
+          "height": 5928,
+          "width": 4300,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/13",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/13.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/13.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5928,
+                "width": 4300
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14",
+          "@type": "sc:Canvas",
+          "label": "14",
+          "height": 5960,
+          "width": 4264,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/14",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/14.tif/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/14.tif",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                },
+                "height": 5960,
+                "width": 4264
+              },
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14"
+            }
+          ],
+          "related": ""
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/range/r0",
+      "@type": "sc:Range",
+      "label": "",
+      "viewingHint": "top",
+      "ranges": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_4",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_5",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_6",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_7",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_8",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_9",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_10",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_11",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_4",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_6",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_7",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_9",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_10",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_11",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_12",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_13",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_16",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_17",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_18",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_20",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_21",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_22",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_23",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_25",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_26",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_27",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_28",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_4",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_5",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_6",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_7",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_8",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_9",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_10",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_13",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_14",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_16",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_17",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_19",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_20",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_24",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_4",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_5",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_9",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_10",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_11",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_15",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_16",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_17",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_18",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_19",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_22",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_23",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_25",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_4",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_5",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_6",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_13",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_6",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_7",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_10",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_11",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_12",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_13",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_14",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7/range/artModsBib_7_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7/range/artModsBib_7_3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_10",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_12",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_15",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_19",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_22",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_4",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_6",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_7",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_10",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_14",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_17",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_4",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_6",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_7",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_8",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_9",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_10",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_11",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11/range/artModsBib_11_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11/range/artModsBib_11_2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12/range/artModsBib_12_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12/range/artModsBib_12_2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12/range/artModsBib_12_3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_5",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_9",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_12",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_13",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_4",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_6",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_7",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_8"
+      ],
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13",
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_1",
+      "@type": "sc:Range",
+      "label": "[masthead]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_3",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_4",
+      "@type": "sc:Range",
+      "label": "Germany Accepts Terms: Great World War is Brought to End",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_5",
+      "@type": "sc:Range",
+      "label": "Announcement That Armistice Had Been Signed Was Made at Washington 2:45 This Morning",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_6",
+      "@type": "sc:Range",
+      "label": "Saturday Proves a Record Day for Canvassers of Victory Loan in City-$136,107 Secured: How the Teams Stood at Week-End",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_7",
+      "@type": "sc:Range",
+      "label": "British Cross Franco-Belgian Border-Are Almost within Gun Range of Brussels",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_8",
+      "@type": "sc:Range",
+      "label": "Thirteen Death Occur in City from the Flu Sunday-Epidemic Decreasing-Only 30 New Cases",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_9",
+      "@type": "sc:Range",
+      "label": "Kaiser Thought Accompanied by Von Hindenburg and Crown Prince in Flight to Holland",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_10",
+      "@type": "sc:Range",
+      "label": "Edmonton Celebrates Peace News with Impromptu Demonstration",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1/range/artModsBib_1_11",
+      "@type": "sc:Range",
+      "label": "Revolution Reaches Berlin: German Capital the Scene of Fighting on Saturday--Red Forces in Control and Order is Restored",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_2",
+      "@type": "sc:Range",
+      "label": "Kaiser Wilhelm Abdicates; Official Decree Published",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_3",
+      "@type": "sc:Range",
+      "label": "High Lights in the Great War",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_4",
+      "@type": "sc:Range",
+      "label": "Socialist is Chancellor; Wants Peace: Friedrich Ebert Proclaims Intention to Form People's Govt. and Get Speedy Peace",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_6",
+      "@type": "sc:Range",
+      "label": "German Emperor's Abdication Ends Tyrannical Reign of the Hated Hohenzollern Dynasty",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_7",
+      "@type": "sc:Range",
+      "label": "Maximilian for Regent of Empire: Semi-Official Announcement Says That German Chancellor Aoppointed",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_9",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_10",
+      "@type": "sc:Range",
+      "label": "Arrange Plan of Elections to Reichstag: Will Have Equal, Direct Secret Ballot on Proportionate Representation",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_11",
+      "@type": "sc:Range",
+      "label": "\"Silent Mike\" Tiernan, Famous Batter, Dead",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_12",
+      "@type": "sc:Range",
+      "label": "The Dynasty Crumbles as Kaiser Quits: General Renunciation and Leave Taking Reported on Saturday-Hindenburg a Witness",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_13",
+      "@type": "sc:Range",
+      "label": "Krupp Works in Hands of the Workmen: Essen, Seat of Big Munition Works, Has Been Taken by Revolutionaries",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_16",
+      "@type": "sc:Range",
+      "label": "Courier Was Delayed by German Fire: Mistook Series of Explosions behind German Lines for Battle-Berlin Awaits Terms",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_17",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_18",
+      "@type": "sc:Range",
+      "label": "Last of Great Fortresses Taken in German Invasion is Regained by the Allies",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_20",
+      "@type": "sc:Range",
+      "label": "Airman Held as Prisoner Gets D. S. O",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_21",
+      "@type": "sc:Range",
+      "label": "Harvest Leave Extended",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_22",
+      "@type": "sc:Range",
+      "label": "Head of Hamburg Line Dead",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_23",
+      "@type": "sc:Range",
+      "label": "Pape's Diapepsin for Indigestion: Eat One Tablet! No Gases, Acidity, Dyspepsia or Any Stomach Misery",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_25",
+      "@type": "sc:Range",
+      "label": "British Advance on Entire Front Cavalry Enter Belgium: Enemy Retreats before British-Large Number of Tower Are Occupied by French",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_26",
+      "@type": "sc:Range",
+      "label": "The Late Walter Guild",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_27",
+      "@type": "sc:Range",
+      "label": "Marshal Foch Received the Germans in a Railway Car",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2/range/artModsBib_2_28",
+      "@type": "sc:Range",
+      "label": "Wrong Order",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_2",
+      "@type": "sc:Range",
+      "label": "Mask Order is Legal and Can be Rigidly Enforced Where it is Being Openly Disobeyed",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_4",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_5",
+      "@type": "sc:Range",
+      "label": "Figures in Victory Loan Campaign",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_6",
+      "@type": "sc:Range",
+      "label": "Owing to Laxity of City Board of Health, Province to Compel Enforcement of the Health Law: Situation Grows More Serious throughout Province-Many Cases of Epidemic Not Being Reported",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_7",
+      "@type": "sc:Range",
+      "label": "Twelve Deaths from 'Flu Are Reported on Saturday Morning",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_8",
+      "@type": "sc:Range",
+      "label": "The Convalescent",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_9",
+      "@type": "sc:Range",
+      "label": "Stores to Open at 10 A. M.",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_10",
+      "@type": "sc:Range",
+      "label": "Lieut. W. F. Power Epidemic Victim: Well-Known Edmonton Veteran of the 218th Battalion is Dead",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_13",
+      "@type": "sc:Range",
+      "label": "Sends out Information",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_14",
+      "@type": "sc:Range",
+      "label": "Warning to Employers of M. S. A. Defaulters",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_16",
+      "@type": "sc:Range",
+      "label": "North Part of Province over 2 Million Mark: Lacombe Subscribes the Biggest Amount outside City-Camrose a Good Second",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_17",
+      "@type": "sc:Range",
+      "label": "Mayor Evans Speaks for City",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_19",
+      "@type": "sc:Range",
+      "label": "Jumped from Window but Was Uninjured",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_20",
+      "@type": "sc:Range",
+      "label": "William Stewart is Dead of Pneumonia",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3/range/artModsBib_3_24",
+      "@type": "sc:Range",
+      "label": "Pte. Alex. Hulbert Dead",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_2",
+      "@type": "sc:Range",
+      "label": "Social Side of City Life: Personals, Meeting, Club Activities, Weddings and Social Events",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_3",
+      "@type": "sc:Range",
+      "label": "Will Arrange to Meet Live Stock Crisis: Breeders and Meat Packers to Confer on Situation That Peace Will Create",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_4",
+      "@type": "sc:Range",
+      "label": "Iron Cross is No Longer a Coveted Badge: Insignia of German Imperial Govt. Not Allowed-Traffic Restricted to Denmark",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_5",
+      "@type": "sc:Range",
+      "label": "The Daily Poem: Regrets",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_9",
+      "@type": "sc:Range",
+      "label": "Women Can Pay Compliment to Valor of Candian Soldiers",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_10",
+      "@type": "sc:Range",
+      "label": "On Dit",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_11",
+      "@type": "sc:Range",
+      "label": "Succeeds Mr. Ziegler",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_15",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_16",
+      "@type": "sc:Range",
+      "label": "Popular Records for next Week",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_17",
+      "@type": "sc:Range",
+      "label": "Obituary",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_18",
+      "@type": "sc:Range",
+      "label": "Relief Centre Phone Numbers at a Glance",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_19",
+      "@type": "sc:Range",
+      "label": "Boston Papers All Increase Their Prices",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_22",
+      "@type": "sc:Range",
+      "label": "Wives and Mothers Suffer with Backache: Unfortunately They Fall to Recognize the Dangerous Cause of the Trouble",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_23",
+      "@type": "sc:Range",
+      "label": "Yale Planning Big Campaign in Education: Men Representing Culture of the Allied Countries Are Being Brought to University",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4/range/artModsBib_4_25",
+      "@type": "sc:Range",
+      "label": "Train Filled with Soldiers in Collision",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_3",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_4",
+      "@type": "sc:Range",
+      "label": "Another Attempt Made of Life of Prince Henry of Prussia",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_5",
+      "@type": "sc:Range",
+      "label": "Local Relief Committees",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_6",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5/range/artModsBib_5_13",
+      "@type": "sc:Range",
+      "label": "Body Shipped to Vancouver",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_1",
+      "@type": "sc:Range",
+      "label": "Victors' Terms to Enemies Severe: Terms of Armistice Imposed on Austria by the Allied Powers",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_2",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_3",
+      "@type": "sc:Range",
+      "label": "Meeting Place Marked by Searchlights: Incidents in Connection with Arrival of German Delegates in French Lines",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_6",
+      "@type": "sc:Range",
+      "label": "Surrender of Turkey Was Unconditional",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_7",
+      "@type": "sc:Range",
+      "label": "Bulgaria, First to Quit Settled on Allies' Terms",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_10",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_11",
+      "@type": "sc:Range",
+      "label": "The C II to Arms",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_12",
+      "@type": "sc:Range",
+      "label": "Socialists Demands",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_13",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6/range/artModsBib_6_14",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7/range/artModsBib_7_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7/range/artModsBib_7_3",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_2",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_10",
+      "@type": "sc:Range",
+      "label": "Died",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_12",
+      "@type": "sc:Range",
+      "label": "The Weather: Forecast",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_15",
+      "@type": "sc:Range",
+      "label": "Coming Events",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_19",
+      "@type": "sc:Range",
+      "label": "British Cross River Scheldt on Wide Front",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8/range/artModsBib_8_22",
+      "@type": "sc:Range",
+      "label": "Victory Loan Results",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_2",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_4",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_6",
+      "@type": "sc:Range",
+      "label": "Good Riddance",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_7",
+      "@type": "sc:Range",
+      "label": "The Flu Mask Order",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_10",
+      "@type": "sc:Range",
+      "label": "Current Comment",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_14",
+      "@type": "sc:Range",
+      "label": "With the Humorists",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9/range/artModsBib_9_17",
+      "@type": "sc:Range",
+      "label": "Profiteers",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_2",
+      "@type": "sc:Range",
+      "label": "Berlin Occupied by Forces of Soldiers-Ministers Resign",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_3",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_4",
+      "@type": "sc:Range",
+      "label": "To Remove Dandruff",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_6",
+      "@type": "sc:Range",
+      "label": "What Should You Do If You Get the 'Flu",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_7",
+      "@type": "sc:Range",
+      "label": "U. S. Freighter Sunk by Mine off Maryland: All Cres of Vessel Escaped before She Went to the Bottom",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_8",
+      "@type": "sc:Range",
+      "label": "Protest Against Zionist Government",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_9",
+      "@type": "sc:Range",
+      "label": "The Bavarian Revolutionists State Case",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_10",
+      "@type": "sc:Range",
+      "label": "Revolution is Spreading in Germany",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10/range/artModsBib_10_11",
+      "@type": "sc:Range",
+      "label": "No Luck for Him",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11/range/artModsBib_11_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11/range/artModsBib_11_2",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12/range/artModsBib_12_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12/range/artModsBib_12_2",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12/range/artModsBib_12_3",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_2",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_3",
+      "@type": "sc:Range",
+      "label": "Money and Markets: Grain Price Fluctuations",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_5",
+      "@type": "sc:Range",
+      "label": "Reports of Gusher from Peace River Are Not Correct",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_9",
+      "@type": "sc:Range",
+      "label": "Bolsheviki Forces Are Scattered in Siberia",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_12",
+      "@type": "sc:Range",
+      "label": "Glard Boats Desert",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13/range/artModsBib_13_13",
+      "@type": "sc:Range",
+      "label": "Local Live Stock",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_1",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_3",
+      "@type": "sc:Range",
+      "label": "[advertising]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_4",
+      "@type": "sc:Range",
+      "label": "Adventures of Uncle Wiggily: Uncle Wiggily and the Salt",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_6",
+      "@type": "sc:Range",
+      "label": "Acquitted on Charges of Defrauding Govt.",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_7",
+      "@type": "sc:Range",
+      "label": "[unclassified]",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14"
+      ]
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14/range/artModsBib_14_8",
+      "@type": "sc:Range",
+      "label": "Week-End Happenings at Home and Overseas",
+      "canvases": [
+        "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14"
+      ]
+    }
+  ],
+  "viewingDirection": "left-to-right"
+}
