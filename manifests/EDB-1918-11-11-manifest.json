@@ -2,13 +2,45 @@
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11-manifest.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11.json",
   "@type": "sc:Manifest",
-  "label": "Edmonton Bulletin, 1918-11-11 IIIF Experiment",
-  "metadata": [],
+  "label": "Edmonton Bulletin: 1918-11-11, CITY EDITION",
+  "logo": "{{ site.url }}{{ site.baseurl }}/assets/logo.png",
+  "metadata": [
+    {
+      "label": "Publication",
+      "value": [
+        "Edmonton Bulletin"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        "1918-11-11"
+      ]
+    },
+    {
+      "label": "Volume",
+      "value": [
+        "9"
+      ]
+    },
+    {
+      "label": "Issue",
+      "value": [
+        "169"
+      ]
+    },
+    {
+      "label": "Edition",
+      "value": [
+        "CITY EDITION"
+      ]
+    }
+  ],
   "description": [
     {
-      "@value": "Experimental manifest",
+      "@value": "Experimental manifest: barebones newspaper issue",
       "@language": "en"
     }
   ],
@@ -16,34 +48,75 @@
   "attribution": "University of Alberta Libraries",
   "sequences": [
     {
-      "@id": "{{ site.url }}{{ site.baseurl }}/sequence/1",
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/sequence/s1",
       "@type": "sc:Sequence",
-      "label": [
-        {
-          "@value": "Normal Sequence",
-          "@language": "en"
-        }
-      ],
       "canvases": [
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1",
           "@type": "sc:Canvas",
-          "label": "1",
-          "height": 5922,
+          "label": "p. 1",
           "width": 4272,
+          "height": 5922,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/1",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/1.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/1.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/1.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4272,
+                  "height": 5922,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 66,
+                      "height": 92
+                    },
+                    {
+                      "width": 133,
+                      "height": 185
+                    },
+                    {
+                      "width": 267,
+                      "height": 370
+                    },
+                    {
+                      "width": 534,
+                      "height": 740
+                    },
+                    {
+                      "width": 1068,
+                      "height": 1480
+                    },
+                    {
+                      "width": 2136,
+                      "height": 2961
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -70,30 +143,77 @@
                 "height": 5922,
                 "width": 4272
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/1"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2",
           "@type": "sc:Canvas",
-          "label": "2",
-          "height": 5936,
+          "label": "p. 2",
           "width": 4252,
+          "height": 5936,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/2",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/2.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/2.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/2.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4252,
+                  "height": 5936,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 66,
+                      "height": 92
+                    },
+                    {
+                      "width": 132,
+                      "height": 185
+                    },
+                    {
+                      "width": 265,
+                      "height": 371
+                    },
+                    {
+                      "width": 531,
+                      "height": 742
+                    },
+                    {
+                      "width": 1063,
+                      "height": 1484
+                    },
+                    {
+                      "width": 2126,
+                      "height": 2968
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -120,30 +240,77 @@
                 "height": 5936,
                 "width": 4252
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/2"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3",
           "@type": "sc:Canvas",
-          "label": "3",
-          "height": 5967,
+          "label": "p. 3",
           "width": 4248,
+          "height": 5967,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/3",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/3.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/3.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/3.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4248,
+                  "height": 5967,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 66,
+                      "height": 93
+                    },
+                    {
+                      "width": 132,
+                      "height": 186
+                    },
+                    {
+                      "width": 265,
+                      "height": 372
+                    },
+                    {
+                      "width": 531,
+                      "height": 745
+                    },
+                    {
+                      "width": 1062,
+                      "height": 1491
+                    },
+                    {
+                      "width": 2124,
+                      "height": 2983
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -170,30 +337,77 @@
                 "height": 5967,
                 "width": 4248
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/3"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4",
           "@type": "sc:Canvas",
-          "label": "4",
-          "height": 5973,
+          "label": "p. 4",
           "width": 4236,
+          "height": 5973,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/4",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/4.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/4.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/4.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4236,
+                  "height": 5973,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 66,
+                      "height": 93
+                    },
+                    {
+                      "width": 132,
+                      "height": 186
+                    },
+                    {
+                      "width": 264,
+                      "height": 373
+                    },
+                    {
+                      "width": 529,
+                      "height": 746
+                    },
+                    {
+                      "width": 1059,
+                      "height": 1493
+                    },
+                    {
+                      "width": 2118,
+                      "height": 2986
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -220,30 +434,77 @@
                 "height": 5973,
                 "width": 4236
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/4"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p5",
           "@type": "sc:Canvas",
-          "label": "5",
-          "height": 5882,
+          "label": "p. 5",
           "width": 4256,
+          "height": 5882,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/5",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/5.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/5.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/5.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4256,
+                  "height": 5882,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 45
+                    },
+                    {
+                      "width": 66,
+                      "height": 91
+                    },
+                    {
+                      "width": 133,
+                      "height": 183
+                    },
+                    {
+                      "width": 266,
+                      "height": 367
+                    },
+                    {
+                      "width": 532,
+                      "height": 735
+                    },
+                    {
+                      "width": 1064,
+                      "height": 1470
+                    },
+                    {
+                      "width": 2128,
+                      "height": 2941
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -270,30 +531,77 @@
                 "height": 5882,
                 "width": 4256
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/5"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p5",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p6",
           "@type": "sc:Canvas",
-          "label": "6",
-          "height": 5911,
+          "label": "p. 6",
           "width": 4240,
+          "height": 5911,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/6",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/6.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/6.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/6.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4240,
+                  "height": 5911,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 66,
+                      "height": 92
+                    },
+                    {
+                      "width": 132,
+                      "height": 184
+                    },
+                    {
+                      "width": 265,
+                      "height": 369
+                    },
+                    {
+                      "width": 530,
+                      "height": 738
+                    },
+                    {
+                      "width": 1060,
+                      "height": 1477
+                    },
+                    {
+                      "width": 2120,
+                      "height": 2955
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -320,30 +628,77 @@
                 "height": 5911,
                 "width": 4240
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/6"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p6",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p7",
           "@type": "sc:Canvas",
-          "label": "7",
-          "height": 5928,
+          "label": "p. 7",
           "width": 4304,
+          "height": 5928,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/7",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/7.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/7.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/7.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4304,
+                  "height": 5928,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 67,
+                      "height": 92
+                    },
+                    {
+                      "width": 134,
+                      "height": 185
+                    },
+                    {
+                      "width": 269,
+                      "height": 370
+                    },
+                    {
+                      "width": 538,
+                      "height": 741
+                    },
+                    {
+                      "width": 1076,
+                      "height": 1482
+                    },
+                    {
+                      "width": 2152,
+                      "height": 2964
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -370,30 +725,77 @@
                 "height": 5928,
                 "width": 4304
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/7"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p7",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p8",
           "@type": "sc:Canvas",
-          "label": "8",
-          "height": 5943,
+          "label": "p. 8",
           "width": 4248,
+          "height": 5943,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/8",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/8.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/8.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/8.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4248,
+                  "height": 5943,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 66,
+                      "height": 92
+                    },
+                    {
+                      "width": 132,
+                      "height": 185
+                    },
+                    {
+                      "width": 265,
+                      "height": 371
+                    },
+                    {
+                      "width": 531,
+                      "height": 742
+                    },
+                    {
+                      "width": 1062,
+                      "height": 1485
+                    },
+                    {
+                      "width": 2124,
+                      "height": 2971
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -420,30 +822,77 @@
                 "height": 5943,
                 "width": 4248
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/8"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p8",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p9",
           "@type": "sc:Canvas",
-          "label": "9",
-          "height": 5925,
+          "label": "p. 9",
           "width": 4276,
+          "height": 5925,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/9",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/9.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/9.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/9.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4276,
+                  "height": 5925,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 66,
+                      "height": 92
+                    },
+                    {
+                      "width": 133,
+                      "height": 185
+                    },
+                    {
+                      "width": 267,
+                      "height": 370
+                    },
+                    {
+                      "width": 534,
+                      "height": 740
+                    },
+                    {
+                      "width": 1069,
+                      "height": 1481
+                    },
+                    {
+                      "width": 2138,
+                      "height": 2962
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -470,30 +919,77 @@
                 "height": 5925,
                 "width": 4276
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/9"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p9",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10",
           "@type": "sc:Canvas",
-          "label": "10",
-          "height": 5954,
+          "label": "p. 10",
           "width": 4196,
+          "height": 5954,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/10",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/10.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/10.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/10.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4196,
+                  "height": 5954,
+                  "sizes": [
+                    {
+                      "width": 32,
+                      "height": 46
+                    },
+                    {
+                      "width": 65,
+                      "height": 93
+                    },
+                    {
+                      "width": 131,
+                      "height": 186
+                    },
+                    {
+                      "width": 262,
+                      "height": 372
+                    },
+                    {
+                      "width": 524,
+                      "height": 744
+                    },
+                    {
+                      "width": 1049,
+                      "height": 1488
+                    },
+                    {
+                      "width": 2098,
+                      "height": 2977
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -520,30 +1016,77 @@
                 "height": 5954,
                 "width": 4196
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/10"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p11",
           "@type": "sc:Canvas",
-          "label": "11",
-          "height": 5912,
+          "label": "p. 11",
           "width": 4320,
+          "height": 5912,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/11",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/11.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/11.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/11.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4320,
+                  "height": 5912,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 67,
+                      "height": 92
+                    },
+                    {
+                      "width": 135,
+                      "height": 184
+                    },
+                    {
+                      "width": 270,
+                      "height": 369
+                    },
+                    {
+                      "width": 540,
+                      "height": 739
+                    },
+                    {
+                      "width": 1080,
+                      "height": 1478
+                    },
+                    {
+                      "width": 2160,
+                      "height": 2956
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -570,30 +1113,77 @@
                 "height": 5912,
                 "width": 4320
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/11"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p11",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p12",
           "@type": "sc:Canvas",
-          "label": "12",
-          "height": 5938,
+          "label": "p. 12",
           "width": 4224,
+          "height": 5938,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/12",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/12.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/12.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/12.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4224,
+                  "height": 5938,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 66,
+                      "height": 92
+                    },
+                    {
+                      "width": 132,
+                      "height": 185
+                    },
+                    {
+                      "width": 264,
+                      "height": 371
+                    },
+                    {
+                      "width": 528,
+                      "height": 742
+                    },
+                    {
+                      "width": 1056,
+                      "height": 1484
+                    },
+                    {
+                      "width": 2112,
+                      "height": 2969
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -620,30 +1210,77 @@
                 "height": 5938,
                 "width": 4224
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/12"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p12",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p13",
           "@type": "sc:Canvas",
-          "label": "13",
-          "height": 5928,
+          "label": "p. 13",
           "width": 4300,
+          "height": 5928,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/13",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/13.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/13.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/13.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4300,
+                  "height": 5928,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 67,
+                      "height": 92
+                    },
+                    {
+                      "width": 134,
+                      "height": 185
+                    },
+                    {
+                      "width": 268,
+                      "height": 370
+                    },
+                    {
+                      "width": 537,
+                      "height": 741
+                    },
+                    {
+                      "width": 1075,
+                      "height": 1482
+                    },
+                    {
+                      "width": 2150,
+                      "height": 2964
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -670,30 +1307,77 @@
                 "height": 5928,
                 "width": 4300
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/13"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p13",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         },
         {
-          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14",
+          "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p14",
           "@type": "sc:Canvas",
-          "label": "14",
-          "height": 5960,
+          "label": "p. 14",
           "width": 4264,
+          "height": 5960,
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/anno/14",
               "@type": "oa:Annotation",
-              "motivation": "sc:painting",
               "resource": {
-                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/14.tif/full/full/0/default.jpg",
+                "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/14.tif/info.json",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://tiles.library.ualberta.ca/fcgi-bin/iipsrv.fcgi?IIIF=/maps/tileserver/newspapers/EDB/1918/11/11/14.tif",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4264,
+                  "height": 5960,
+                  "sizes": [
+                    {
+                      "width": 33,
+                      "height": 46
+                    },
+                    {
+                      "width": 66,
+                      "height": 93
+                    },
+                    {
+                      "width": 133,
+                      "height": 186
+                    },
+                    {
+                      "width": 266,
+                      "height": 372
+                    },
+                    {
+                      "width": 533,
+                      "height": 745
+                    },
+                    {
+                      "width": 1066,
+                      "height": 1490
+                    },
+                    {
+                      "width": 2132,
+                      "height": 2980
+                    }
+                  ],
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
@@ -720,14 +1404,12 @@
                 "height": 5960,
                 "width": 4264
               },
-              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/14"
+              "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p14",
+              "motivation": "sc:painting"
             }
-          ],
-          "related": ""
+          ]
         }
       ]
     }
-  ],
-  "structures": [],
-  "viewingDirection": "left-to-right"
+  ]
 }
