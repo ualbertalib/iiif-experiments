@@ -1,11 +1,9 @@
----
----
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11.json",
   "@type": "sc:Manifest",
   "label": "Edmonton Bulletin: 1918-11-11, CITY EDITION",
-  "logo": "{{ site.url }}{{ site.baseurl }}/assets/logo.png",
+  "logo": "https://mobile.ualberta.ca/img/UAlberta_Icon.png",
   "metadata": [
     {
       "label": "Publication",
@@ -40,7 +38,7 @@
   ],
   "description": [
     {
-      "@value": "Experimental manifest: barebones newspaper issue",
+      "@value": "Experimental manifest",
       "@language": "en"
     }
   ],

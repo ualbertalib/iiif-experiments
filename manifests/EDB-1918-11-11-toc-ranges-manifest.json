@@ -5,6 +5,7 @@
   "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11-toc-manifest.json",
   "@type": "sc:Manifest",
   "label": "Edmonton Bulletin, 1918-11-11 with TOC",
+  "logo": "https://mobile.ualberta.ca/img/UAlberta_Icon.png",
   "metadata": [],
   "description": [
     {

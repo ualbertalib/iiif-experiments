@@ -16,6 +16,7 @@
 	],
 	"license": "https://creativecommons.org/licenses/by/3.0/",
 	"attribution": "Thomas Wellington Chalmers",
+	"logo": "https://mobile.ualberta.ca/img/UAlberta_Icon.png",
 	"sequences": [
 		{
 			"@id": "http://5df51911-d764-4d9e-b6d2-12bf0a5891cf",
@@ -80,7 +81,6 @@
 		}
 	],
 	"structures": [],
-	"logo": "https://www.library.ualberta.ca/assets/ualib-logo-549144662029bcb11335dae2461fab157814df5b2e2d40d10a02e4e4335169ca.png",
 	"related": {
 		"@id": "http://peel.library.ualberta.ca/maps/M000104.html",
 		"label": "Peel's Prairie Provinces"
