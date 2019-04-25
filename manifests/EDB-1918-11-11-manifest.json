@@ -1,8 +1,10 @@
+---
+---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11.json",
   "@type": "sc:Manifest",
-  "label": "Edmonton Bulletin: 1918-11-11, CITY EDITION",
+  "label": "Edmonton Bulletin: 1918-11-11, CITY EDITION / Barebones",
   "logo": "https://mobile.ualberta.ca/img/UAlberta_Icon.png",
   "metadata": [
     {
