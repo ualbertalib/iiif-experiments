@@ -1,0 +1,129 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/EDB-1918-11-11/annos/page-10.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_1",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10#xywh=0,0,4190,299",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_1/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_2",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10#xywh=0,299,1319,712",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_2/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Berlin Occupied by Forces of Soldiers-Ministers Resign"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_3",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10#xywh=1911,299,2279,5652",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_3/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[advertising]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_4",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10#xywh=1317,299,594,788",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_4/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "To Remove Dandruff"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_6",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10#xywh=0,2843,1291,3108",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_6/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "What Should You Do If You Get the 'Flu"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_7",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10#xywh=1291,2007,620,1156",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_7/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "U. S. Freighter Sunk by Mine off Maryland: All Cres of Vessel Escaped before She Went to the Bottom"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_8",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10#xywh=1291,3163,620,428",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_8/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Protest Against Zionist Government"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_9",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10#xywh=1291,3591,620,1260",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_9/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "The Bavarian Revolutionists State Case"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_10",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10#xywh=1291,4851,620,1100",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_10/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Revolution is Spreading in Germany"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_11",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p10#xywh=0,1011,1291,544",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p10/headline/artModsBib_10_11/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "No Luck for Him"
+      }
+    }
+  ]
+}

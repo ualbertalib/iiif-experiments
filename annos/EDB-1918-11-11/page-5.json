@@ -1,0 +1,81 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/EDB-1918-11-11/annos/page-5.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_1",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p5#xywh=0,0,4250,263",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_1/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_3",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p5#xywh=0,263,1235,1860",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_3/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[advertising]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_4",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p5#xywh=1815,4331,1162,252",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_4/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Another Attempt Made of Life of Prince Henry of Prussia"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_5",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p5#xywh=0,4295,1243,180",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_5/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Local Relief Committees"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_6",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p5#xywh=1235,263,608,4032",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_6/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_13",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p5#xywh=3569,4755,681,198",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p5/headline/artModsBib_5_13/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Body Shipped to Vancouver"
+      }
+    }
+  ]
+}

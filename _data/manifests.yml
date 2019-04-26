@@ -6,6 +6,10 @@
   filename: EDB-1918-11-11-toc-ranges-manifest.json
   description: |
     Articles are listed in the left sidebar, represented by ranges using canvas-level links. Linking to zones on the canvas is theoretically possible under Presentation API 2.1, using [```#xywh``` fragments](https://iiif.io/api/presentation/2.1/#members), but it is not supported by Mirador or Universal Viewer (or at least I can't make it work). The implementation of ranges in 2.1 and is being [redeveloped in 3.0](https://iiif.io/api/presentation/3.0/#54-range).
+- title: Newspaper issue with headlines as text annotations
+  filename: EDB-1918-11-11-headline-annotations-manifest.json
+  description: |
+    Headlines are text annotations, positioned with an xywh fragment, and listed in a page-level annotation list.
 - title: Olive monograph
   filename: 796-manifest.json
   description: |

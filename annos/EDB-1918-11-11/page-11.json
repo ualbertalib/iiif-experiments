@@ -1,0 +1,33 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/EDB-1918-11-11/annos/page-11.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p11/headline/artModsBib_11_1",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p11#xywh=0,0,4314,255",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p11/headline/artModsBib_11_1/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p11/headline/artModsBib_11_2",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p11#xywh=0,255,4314,5656",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p11/headline/artModsBib_11_2/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[advertising]"
+      }
+    }
+  ]
+}

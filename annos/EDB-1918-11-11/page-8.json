@@ -1,0 +1,93 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/EDB-1918-11-11/annos/page-8.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_1",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p8#xywh=0,0,4243,275",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_1/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_2",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p8#xywh=0,275,743,2008",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_2/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[advertising]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_10",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p8#xywh=743,537,576,366",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_10/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Died"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_12",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p8#xywh=729,1695,590,976",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_12/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "The Weather: Forecast"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_15",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p8#xywh=729,2671,568,1052",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_15/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Coming Events"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_19",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p8#xywh=1881,2071,594,1448",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_19/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "British Cross River Scheldt on Wide Front"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_22",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p8#xywh=1881,3519,594,580",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p8/headline/artModsBib_8_22/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Victory Loan Results"
+      }
+    }
+  ]
+}

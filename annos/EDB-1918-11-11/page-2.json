@@ -1,0 +1,273 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/EDB-1918-11-11/annos/page-2.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_1",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=0,0,4251,307",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_1/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_2",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=0,307,1349,1316",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_2/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Kaiser Wilhelm Abdicates; Official Decree Published"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_3",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=1351,307,1160,150",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_3/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "High Lights in the Great War"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_4",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=0,2815,745,1306",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_4/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Socialist is Chancellor; Wants Peace: Friedrich Ebert Proclaims Intention to Form People's Govt. and Get Speedy Peace"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_6",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=1349,1231,1138,348",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_6/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "German Emperor's Abdication Ends Tyrannical Reign of the Hated Hohenzollern Dynasty"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_7",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=2511,307,578,924",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_7/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Maximilian for Regent of Empire: Semi-Official Announcement Says That German Chancellor Aoppointed"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_9",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=0,4121,1315,72",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_9/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_10",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=745,2815,570,1032",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_10/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Arrange Plan of Elections to Reichstag: Will Have Equal, Direct Secret Ballot on Proportionate Representation"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_11",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=745,3847,570,274",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_11/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "\"Silent Mike\" Tiernan, Famous Batter, Dead"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_12",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=1901,2675,578,1464",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_12/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "The Dynasty Crumbles as Kaiser Quits: General Renunciation and Leave Taking Reported on Saturday-Hindenburg a Witness"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_13",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=1315,4971,576,964",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_13/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Krupp Works in Hands of the Workmen: Essen, Seat of Big Munition Works, Has Been Taken by Revolutionaries"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_16",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=2471,2675,586,1094",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_16/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Courier Was Delayed by German Fire: Mistook Series of Explosions behind German Lines for Battle-Berlin Awaits Terms"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_17",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=1891,4819,2360,104",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_17/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_18",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=3057,3385,1194,1434",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_18/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Last of Great Fortresses Taken in German Invasion is Regained by the Allies"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_20",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=1891,4139,580,300",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_20/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Airman Held as Prisoner Gets D. S. O"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_21",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=1891,4439,580,170",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_21/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Harvest Leave Extended"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_22",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=1891,4609,580,210",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_22/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Head of Hamburg Line Dead"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_23",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=2471,3769,586,632",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_23/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Pape's Diapepsin for Indigestion: Eat One Tablet! No Gases, Acidity, Dyspepsia or Any Stomach Misery"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_25",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=3089,307,1162,924",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_25/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "British Advance on Entire Front Cavalry Enter Belgium: Enemy Retreats before British-Large Number of Tower Are Occupied by French"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_26",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=2487,1975,594,420",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_26/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "The Late Walter Guild"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_27",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=3081,2187,1170,488",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_27/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Marshal Foch Received the Germans in a Railway Car"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_28",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p2#xywh=2487,2395,594,280",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p2/headline/artModsBib_2_28/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Wrong Order"
+      }
+    }
+  ]
+}

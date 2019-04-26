@@ -1,0 +1,201 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/EDB-1918-11-11/annos/page-3.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_1",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=0,0,4246,659",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_1/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_2",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=0,659,1191,312",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_2/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Mask Order is Legal and Can be Rigidly Enforced Where it is Being Openly Disobeyed"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_4",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=0,3431,593,2535",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_4/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[advertising]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_5",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=1191,659,1152,150",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_5/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Figures in Victory Loan Campaign"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_6",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=1185,2129,1158,530",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_6/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Owing to Laxity of City Board of Health, Province to Compel Enforcement of the Health Law: Situation Grows More Serious throughout Province-Many Cases of Epidemic Not Being Reported"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_7",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=1179,3507,1150,196",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_7/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Twelve Deaths from 'Flu Are Reported on Saturday Morning"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_8",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=593,5267,574,699",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_8/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "The Convalescent"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_9",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=2343,659,1168,164",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_9/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Stores to Open at 10 A. M."
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_10",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=2343,2171,576,500",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_10/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Lieut. W. F. Power Epidemic Victim: Well-Known Edmonton Veteran of the 218th Battalion is Dead"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_13",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=1753,4803,576,286",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_13/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Sends out Information"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_14",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=1753,5089,576,877",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_14/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Warning to Employers of M. S. A. Defaulters"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_16",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=3511,659,735,1816",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_16/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "North Part of Province over 2 Million Mark: Lacombe Subscribes the Biggest Amount outside City-Camrose a Good Second"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_17",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=2919,2171,592,932",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_17/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Mayor Evans Speaks for City"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_19",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=2329,4683,590,1283",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_19/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Jumped from Window but Was Uninjured"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_20",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=3511,2475,735,606",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_20/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "William Stewart is Dead of Pneumonia"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_24",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p3#xywh=2919,3103,594,504",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p3/headline/artModsBib_3_24/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Pte. Alex. Hulbert Dead"
+      }
+    }
+  ]
+}

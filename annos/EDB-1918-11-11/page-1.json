@@ -1,0 +1,129 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/EDB-1918-11-11/annos/page-1.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_1",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1#xywh=0,0,4270,643",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_1/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[masthead]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_3",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1#xywh=0,1029,1211,182",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_3/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_4",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1#xywh=0,643,4270,386",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_4/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Germany Accepts Terms: Great World War is Brought to End"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_5",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1#xywh=2949,1029,1321,834",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_5/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Announcement That Armistice Had Been Signed Was Made at Washington 2:45 This Morning"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_6",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1#xywh=0,3855,1201,930",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_6/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Saturday Proves a Record Day for Canvassers of Victory Loan in City-$136,107 Secured: How the Teams Stood at Week-End"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_7",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1#xywh=0,2933,1211,922",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_7/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "British Cross Franco-Belgian Border-Are Almost within Gun Range of Brussels"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_8",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1#xywh=2937,4359,1333,300",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_8/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Thirteen Death Occur in City from the Flu Sunday-Epidemic Decreasing-Only 30 New Cases"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_9",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1#xywh=2945,3355,1325,304",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_9/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Kaiser Thought Accompanied by Von Hindenburg and Crown Prince in Flight to Holland"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_10",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1#xywh=2949,2363,1321,222",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_10/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Edmonton Celebrates Peace News with Impromptu Demonstration"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_11",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p1#xywh=1211,3287,1738,446",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p1/headline/artModsBib_1_11/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Revolution Reaches Berlin: German Capital the Scene of Fighting on Saturday--Red Forces in Control and Order is Restored"
+      }
+    }
+  ]
+}

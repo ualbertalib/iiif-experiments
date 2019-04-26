@@ -1,0 +1,201 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/EDB-1918-11-11/annos/page-4.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_1",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=0,0,4235,295",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_1/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[unclassified]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_2",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=0,295,1927,304",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_2/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Social Side of City Life: Personals, Meeting, Club Activities, Weddings and Social Events"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_3",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=1929,295,586,1726",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_3/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Will Arrange to Meet Live Stock Crisis: Breeders and Meat Packers to Confer on Situation That Peace Will Create"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_4",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=1915,2535,580,834",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_4/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Iron Cross is No Longer a Coveted Badge: Insignia of German Imperial Govt. Not Allowed-Traffic Restricted to Denmark"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_5",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=769,599,578,1152",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_5/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "The Daily Poem: Regrets"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_9",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=1347,1409,586,342",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_9/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Women Can Pay Compliment to Valor of Candian Soldiers"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_10",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=1339,2025,576,1000",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_10/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "On Dit"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_11",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=1347,1751,586,274",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_11/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Succeeds Mr. Ziegler"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_15",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=0,2883,759,1710",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_15/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[advertising]"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_16",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=0,2263,769,620",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_16/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Popular Records for next Week"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_17",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=1339,3025,576,2094",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_17/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Obituary"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_18",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=1339,5119,576,851",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_18/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Relief Centre Phone Numbers at a Glance"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_19",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=2515,295,580,604",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_19/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Boston Papers All Increase Their Prices"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_22",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=2513,1401,576,1132",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_22/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Wives and Mothers Suffer with Backache: Unfortunately They Fall to Recognize the Dangerous Cause of the Trouble"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_23",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=2515,899,580,504",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_23/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Yale Planning Big Campaign in Education: Men Representing Culture of the Allied Countries Are Being Brought to University"
+      }
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_25",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/canvas/p4#xywh=1915,3369,580,674",
+      "resource": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/manifests/EDB-1918-11-11/annos/p4/headline/artModsBib_4_25/text",
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Train Filled with Soldiers in Collision"
+      }
+    }
+  ]
+}
