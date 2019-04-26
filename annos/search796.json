@@ -1,0 +1,254 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/search/0/context.json",
+  "@id": "{{ site.url }}{{ site.baseurl }}/search796.json?q=stony",
+  "@type": "sc:AnnotationList",
+  "within": {
+    "@type": "sc:Layer",
+    "total": 24
+  },
+  "startIndex": 0,
+  "resources": [
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c741,900,90,57",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p12#xywh=741,900,90,57"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c564,801,90,54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p14#xywh=564,801,90,54"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c1452,933,93,54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p21#xywh=1452,933,93,54"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c987,444,87,57",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p23#xywh=987,444,87,57"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c1272,711,93,54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p23#xywh=1272,711,93,54"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c270,1020,93,54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p23#xywh=270,1020,93,54"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c666,840,84,57",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p24#xywh=666,840,84,57"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c486,2043,96,51",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p34#xywh=486,2043,96,51"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c1068,336,87,48",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p35#xywh=1068,336,87,48"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c1110,684,87,54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p35#xywh=1110,684,87,54"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c786,1086,87,48",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p35#xywh=786,1086,87,48"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c357,1653,93,54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p39#xywh=357,1653,93,54"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c987,1872,93,57",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p39#xywh=987,1872,93,57"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c1290,636,87,54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p42#xywh=1290,636,87,54"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c411,1503,87,54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p42#xywh=411,1503,87,54"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c1278,1257,90,57",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p44#xywh=1278,1257,90,57"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c846,1302,99,57",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p44#xywh=846,1302,99,57"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c726,1608,90,57",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p44#xywh=726,1608,90,57"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c669,1410,84,48",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p45#xywh=669,1410,84,48"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c951,1818,87,57",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p70#xywh=951,1818,87,57"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c1203,1008,93,57",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p71#xywh=1203,1008,93,57"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c1203,1581,90,54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p71#xywh=1203,1581,90,54"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c342,690,90,54",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p72#xywh=342,690,90,54"
+    },
+    {
+      "@id": "{{ site.url }}{{ site.baseurl }}/annos/searchResults/m796p72c279,1707,93,48",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "stony"
+      },
+      "on": "{{ site.url }}{{ site.baseurl }}/manifests/796/canvas/p72#xywh=279,1707,93,48"
+    }
+  ]
+}

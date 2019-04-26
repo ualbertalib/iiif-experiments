@@ -14,4 +14,7 @@
   filename: 796-datarange-manifest.json
   description: |
     Enriched monograph from Olive XML plus external data file containing page labels and section titles
-    
+- title: Olive monograph with section ranges and search
+  filename: 796-datarange-search-manifest.json
+  description: |
+    Enriched monograph from Olive XML with ranges, and search. The search results are a static file, so whatever you search you'll get results for "stony".
