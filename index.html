@@ -42,7 +42,7 @@
         "buildPath": "vendor/mirador/",
         "data": ualibCollection,
         "preserveManifestOrder": true,
-        "windowObjects": [],
+        "windowObjects": [{ "annotationLayer": true, "annotationCreation": false, "annotationState": "annoOnCreateOff" }],
         "annotationEndpoint": { "name":"Local Storage", "module": "LocalStorageEndpoint" },
         "windowSettings": {
          "canvasControls": { // The types of controls available to be displayed on a canvas
@@ -63,8 +63,12 @@
         config["windowObjects"] = [
           {
             "loadedManifest" : manifest, 
-            "viewType" : "ImageView"
-          }]
+            "viewType" : "ImageView",
+            "annotationLayer" : true, 
+            "annotationCreation" : false, 
+            "annotationState" : "annoOnCreateOff"
+          }
+        ]
       }
       else {
         config["openManifestsPage"] = true
